@@ -1,6 +1,6 @@
-# Redmine Time Tracker  [![Build Status](https://travis-ci.org/ujiro99/RedmineTimeTracker.svg?branch=master)](https://travis-ci.org/ujiro99/RedmineTimeTracker) [![Build status](https://ci.appveyor.com/api/projects/status/we7rn4782lkde45i?svg=true)](https://ci.appveyor.com/project/ujiro99/redminetimetracker) [![Coverage Status](https://coveralls.io/repos/github/ujiro99/RedmineTimeTracker/badge.svg?branch=master)](https://coveralls.io/github/ujiro99/RedmineTimeTracker?branch=master)
+# Redmine Time Tracker  [![Build Status](https://travis-ci.org/kuwkuw/RedmineTimeTracker.svg?branch=master)](https://travis-ci.org/kuwkuw/RedmineTimeTracker) [![Build status](https://ci.appveyor.com/api/projects/status/we7rn4782lkde45i?svg=true)](https://ci.appveyor.com/project/kuwkuw/redminetimetracker) [![Coverage Status](https://coveralls.io/repos/github/kuwkuw/RedmineTimeTracker/badge.svg?branch=master)](https://coveralls.io/github/kuwkuw/RedmineTimeTracker?branch=master)
 
-![icon](https://github.com/ujiro99/RedmineTimeTracker/blob/master/app/images/icon_128.png)
+![icon](https://github.com/kuwkuw/RedmineTimeTracker/blob/master/app/images/icon_128.png)
 
 Time tracking tool for Redmine.  
 This tool works as Chrome App or Electron App.
@@ -13,7 +13,7 @@ Chrome App
 
 Electron App
 
-* [Release](https://github.com/ujiro99/RedmineTimeTracker/releases)
+* [Release](https://github.com/kuwkuw/RedmineTimeTracker/releases)
 
 ## Licence
 

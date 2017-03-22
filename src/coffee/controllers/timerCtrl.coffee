@@ -131,10 +131,17 @@ timeTracker.controller 'TimerCtrl', ($scope, $timeout, Redmine, Project, Ticket,
 
 
   ###
+   on timer start, send time of timer start.
+  ###
+  $scope.$on 'timer-star', (e, time) ->
+    postTimerChangeStatusTime('timer-star')
+
+  ###
    on timer stopped, send time entry.
   ###
   $scope.$on 'timer-stopped', (e, time) ->
     $scope.mode.onTimerStopped(time)
+    postTimerChangeStatusTime('timer-stopped')
 
 
   ###
@@ -144,7 +151,13 @@ timeTracker.controller 'TimerCtrl', ($scope, $timeout, Redmine, Project, Ticket,
     if (not State.isAutoTracking) and (not State.isPomodoring)
       return
     $scope.time.min = Math.floor(time.millis / (60000))
-
+  
+  ###
+    send timer status changing time
+  ###
+  postTimerChangeStatusTime = (timerStatus)->
+    ##TODO Imolement post to redmine
+    Log.log("Timer status changed: ", timerStatus)
 
   ###
    send time entry.
