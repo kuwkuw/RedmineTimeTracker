@@ -25,9 +25,9 @@ before_install:
 install:
   - grunt dev
 script:
-  - npm test
+  # - npm test
 before_deploy:
-  - npm run dist:chrome
+  # - npm run dist:chrome
   - npm run release
 deploy:
   provider: releases
